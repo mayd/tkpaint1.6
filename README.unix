@@ -1,0 +1,22 @@
+
+README FILE FOR Unix users
+--------------------------------------
+
+tkpaint is a vector drawing program similar to Xfig, but
+written on Tcl/Tk. It allows you to draw interactively almost
+anything which can be drawn on Tk canvas.
+
+Copyright (C) 1998,1999  Samy Zafrany [samy@netanya.ac.il]
+
+Unix port is maintained by Victor Wagner <vitus@ice.ru>
+Only differences of Unix port is autoconf configure script provided.
+All changes I've made apart from that, should be propagated into
+original distribution or rejected from unix port too.
+
+See INSTALL for installation instrictions.
+
+Tkpaint for UNIX was tested on Linux (Tcl/Tk 8.0p2 and 8.0.3)
+BSDI 3.1 and Solaris 2.5 (8.0p2)
+
+It is possible to install from this archive on Windows (basically just
+unpack it somewhere and click on Tkpaint.tcl)

@@ -1,0 +1,74 @@
+TKPAINT 1.6
+------------------
+* Mainly added several dash line styles (under the "Line" menu)
+* Warning !!! - Tkpaint 1.6 will not work under Tcl/Tk versions prior to 8.3 !!!
+* Some minor bug fixes (now you can send PostScript output to GhostView
+  under Windows NT).
+
+TKPAINT 1.52
+------------------
+* Replaced old gifs (for toolbar buttons) with new transparent gifs.
+* Fixed path problems to make tkpaint run on macintosh too.
+* Some more bug fixes, mainly related to grabs on toplevel windows.
+* Looks quite stable by now.
+
+TKPAINT 1.51
+------------------
+* Fixed the "Zoom/No snap" bug (graphics snap size somehow increased too
+  even if snap was off).
+* Fixed bug related to long file names with spaces
+  (like "c:/Program Files/tkpaint/...").
+  This problem occured with pic files, preference files, and image files.
+  Tkpaint did not open such files. Typical bug.
+
+TKPAINT 1.5
+------------------
+* Zoom: 50%, 75%, 100%, 150%,... ,500%
+* Img package integrated (http://home.wxs.nl/~nijtmans)
+  Possible to insert images of type: JPEG, windows BMP, XPM, PNG, TIFF, and
+  POSTSCRIPT. Win95/NT may have problems with POSTSCRIPT though.
+* SCROLLBARS to the tkpaint canvas.
+* Fixed the "lower group history bug" (to those who know what I mean :-)
+* Fixed some more bugs related to the History/Undo with groups.
+* Improved file saving
+* When resizing a group of objects, the text is also get resized proportionally
+  to the X-direction. Resizing of fonts was not present at earlier versions.
+
+TKPAINT 1.4
+------------------
+* Added "reshape" feature for lines and polygons. That is, now it is possible
+  to pick an existing line or polygon (including smooth ones) and to relocate
+  its vertices (drag the with the mouse). In addition, you may add new vertices
+  to existing polygons/lines, and you can also delete vertices.
+  See the help.
+* Added the "Deform group" feature. It is possible to select a group of
+  objects and deform all the objects with respect to inclination.
+  This is good for drawing 3d stuff.
+* some more bug fixes (not much).
+* Added "Prefrences" to the "File" menu". Now you can save you favourite
+  parameters to a file, and even create several such files.
+  You may load such files at any time during your work.
+  This enhances work productivity. Read more in "HELP".
+* Possible to supply one command line argumnet to tkpaint (pic file name).
+  Useful for Unix shell users, or when running tkpaint from the command line
+  from a DOS window.
+
+TKPAINT 1.3
+------------------
+Online help entry (down at the status bar).
+some more bug fixes.
+Now it is possible to put arrows on arcs.
+
+TKPAINT 1.2
+------------------
+Added bitmaps and photo images (gif/ppm/bmp/pgm)
+bitmaps - editing background and foreground colors
+Fixed "missing solid bitmap" bug among other bugs.
+Canvas can be scrolled using "Control-Arrow-Keys", "Alt-Arrow-Keys".
+Canvas dimensions = 1500x1500. Can stretch with "Contro-PageUp",
+"Control-PageDown"
+
+TKPAINT 1.1
+------------------
+little bug fixes: zero width line, default open file was untitled.pic even
+if it did not exist.
